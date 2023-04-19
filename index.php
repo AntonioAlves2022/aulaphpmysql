@@ -5,7 +5,7 @@ include_once("conexao.php");
 ?>
 
 
-<form method="POST" action="create.php">
+<form method="POST" action="create_users.php">
     <button type="submit">
         Criar Banco de dados
     </button>
