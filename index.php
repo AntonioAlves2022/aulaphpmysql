@@ -5,8 +5,13 @@ include_once("conexao.php");
 ?>
 
 
-<form method="POST" action="create_users.php">
+<form method="POST" action="create.php" id="tb_contatos">
     <button type="submit">
-        Criar Banco de dados
+        Criar tabela contatos
+    </button>
+</form>
+<form method="POST" action="create_users.php" id="tb_usuarios">
+    <button type="submit">
+        Criar tabela usuarios
     </button>
 </form>
